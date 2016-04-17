@@ -10,7 +10,7 @@ This was also loosely based off [this](http://www.sitepoint.com/how-to-quickly-b
 
 ## Guide
 
-Not much too it really, just pull or download the repo and put its contents somewhere on your webserver. Run `composer update` inside the `server` directory, then navigate to `http://yourserver.com/reatchat` and ask a buddy to come along with you to get chatting!
+Not much too it really, just pull or download the repo and put its contents somewhere on your webserver. Run `composer update` inside the `server` directory, then navigate to `http://yourserver.com/reatchat` and ask a buddy to come along with you to get chatting! If you don't have any friends then you can open the app in two tabs and talk to yourself.
 
 In a real use case, you would probably put the Ratchet app on a separate server, but that's beyond the scope of this repo. 
 
