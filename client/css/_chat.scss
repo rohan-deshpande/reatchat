@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position:fixed;
+    z-index: 2;
+    width: 100%;
+    padding:10px 0 0 10px;
+    height: $header-height;
+    background: $color-theme;
+    color: white;
+    font-size: 1.3em;
+}
+
+.chat {
+
+    .room {
+        padding: $chat-pad;
+        padding-top: $header-height + $chat-pad;
+        padding-bottom: $chat-pad * 5;
+    }
+
+    .message {
+        margin-bottom: 10px;
+
+        .avatar, .message-body {
+            float: left;
+        }
+
+        .avatar {
+            margin-right: 8px;
+        }
+
+        .message-body {
+            width: calc(100% - 50px);
+        }
+
+        .message-username {
+            text-decoration: none;
+            font-weight: bold;
+            padding-right: 3px;
+        }
+
+        .message-timestamp {
+            color: #ccc;
+            font-size: 0.8em;
+        }
+    }
+
+    .interface {
+        position: relative;
+        width: 100%;
+
+        .fixed {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            padding:$chat-pad;
+            background: white;
+
+            form.message-box {
+
+                input {
+                    border-width: 2px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+button.join {
+    padding: 10px 10px 8px 10px;
+    font-weight: bold;
+    border: 0;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: $color-button;
+    border-bottom:2px solid darken($color-button, 10%);
+    color: white;
+}
+
+input {
+    box-shadow: none;
+    outline: 0;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    min-width:200px;
+    margin-right:10px;
+}

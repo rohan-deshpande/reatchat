@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.left
+{
+    float:left;
+}
+
+.right
+{
+    float:right;
+}
+
+.static
+{
+    position:static;
+}
+
+.relative
+{
+    position:relative;
+}
+
+.absolute
+{
+    position:absolute;
+}
+
+.cl-clear
+{
+    clear: both!important;
+    overflow: hidden!important;
+    margin: 0px 0px 0px 0px!important;
+    border: 0px!important;
+    padding: 0px!important;
+    font-size: 0px!important;
+    line-height: 0px!important;
+    display:block;
+}
+
+.no-border
+{
+    border:0px!important;
+}
+
+
+.no-border-right
+{
+    border-right:0px!important;
+}
+
+.no-pad-left
+{
+    padding-left:0px!important;
+}
+
+.no-pad-r
+{
+    padding-right:0px!important;
+}
+
+
+.no-pad
+{
+    padding:0px!important;
+}
+
+.no-pad-t
+{
+    padding-top:0px!important;
+}
+
+.no-mar
+{
+    margin:0px!important;
+}
+
+.no-mar-bottom
+{
+    margin-bottom:0px!important;
+}
+
+
+.top-mar
+{
+    margin-top:40px;
+}
+
+.v-top
+{
+    vertical-align: top;
+}
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+
+.hide
+{
+    display:none!important;
+}
