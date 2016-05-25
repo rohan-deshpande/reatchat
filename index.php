@@ -27,6 +27,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
         <script src="//cdn.jsdelivr.net/js-md5/0.4.1/md5.min.js"></script>
         <script src="//cdn.jsdelivr.net/jdenticon/1.3.2/jdenticon.min.js"></script>
+        <script src="client/js/marked.min.js"></script>
         <script type="text/babel" src="client/js/Chat.js"></script>
     </body>
 </html>

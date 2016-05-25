@@ -1,0 +1,22 @@
+{
+  "name": "reachat",
+  "description": "\"A simple chat app built with ReactPHP, WebSockets and ReactJs \"",
+  "main": "",
+  "authors": [
+    "rohandeshpande"
+  ],
+  "license": "private",
+  "moduleType": [],
+  "homepage": "https://github.com/rohan-deshpande/reatchat",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marked": "~0.3.4"
+  }
+}

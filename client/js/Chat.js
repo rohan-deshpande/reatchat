@@ -87,6 +87,12 @@ var Chat = React.createClass({
         this.setState({message: e.target.value});
     },
 
+    markdownMessage: function (message) {
+        var markdown = markdown.parse(message);
+
+        return <div dangerouslySetInnerHTML={markdown} />;
+    },
+
     setUser: function (e) {
         this.setState({user: e.target.value});
     },
@@ -107,10 +113,12 @@ var Chat = React.createClass({
     },
 
     componentDidUpdate: function () {
-        window.scrollTo(0, document.body.scrollHeight); 
+        window.scrollTo(0, document.body.scrollHeight);
     },
 
     render: function () {
+        var _this = this;
+
         return (
             <div className='chat'>
                 <div className='room'> {
@@ -131,7 +139,7 @@ var Chat = React.createClass({
                                         {message.time}
                                     </span>
                                     <p className='message-content'>
-                                        {message.message}
+                                        {_this.markdownMessage(message.message)}
                                     </p>
                                 </div>
                             </div>
